@@ -1,7 +1,7 @@
 import 'package:clean_arch/domain/repositories/post_repository.dart';
 import 'package:clean_arch/domain/usecases/get_post_comments_impl.dart';
 import 'package:clean_arch/domain/usecases/get_post_impl.dart';
-import 'package:clean_arch/domain/usecases/get_posts.dart';
+
 import 'package:clean_arch/external/datasources/commnent_datascource_impl.dart';
 import 'package:clean_arch/external/datasources/post_datascource_impl.dart';
 import 'package:clean_arch/external/datasources/user_datascource_impl.dart';

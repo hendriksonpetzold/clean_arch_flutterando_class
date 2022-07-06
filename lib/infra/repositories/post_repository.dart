@@ -21,17 +21,17 @@ class PostRepositoryImpl extends PostRepository {
   );
   @override
   Future<Either<PostExceptions, List<Post>>> getPost() {
-    //! AQUI LOGICA PARA IMPLEMENTAR O BACKEND
-    final listComments = commentDatascources.getComments();
-    final listPost = postDatascources.getPost();
-    final listUsers = userDatascources.getUsers();
+    //TODO IMPLEMENTS BACKEND
+    //final listComments = commentDatascources.getComments();
+    //final listPost = postDatascources.getPost();
+    //final listUsers = userDatascources.getUsers();
     throw UnimplementedError();
   }
 
   @override
   Future<Either<PostExceptions, List<Comment>>> getPostComments(
       String postId) async {
-    final list = await commentDatascources.getComments();
+    //final list = await commentDatascources.getComments();
     throw UnimplementedError();
   }
 }
